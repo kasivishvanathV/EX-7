@@ -15,12 +15,12 @@ To write the python program for simulating Traceroute command.
 6.Stop the program
 ```
 # PROGRAM :
-
+```
 from scapy.all import*
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
 print(result,unans)
-
+```
 
 
 # OUTPUT :
